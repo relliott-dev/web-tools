@@ -1,0 +1,8 @@
+Timestamp: 2024-03-12 13:54:25
+URL: https://nerdbroski.com
+The text 'test' appears 0 times on the page.
+The text 'test1' appears 0 times on the page.
+The text 'blog' appears 10 times on the page.
+The text 'blogs' appears 0 times on the page.
+The text 'shop' appears 2 times on the page.
+The text 'lorem' appears 12 times on the page.

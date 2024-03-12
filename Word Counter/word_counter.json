@@ -1,0 +1,30 @@
+{
+    "timestamp": "2024-03-12 13:54:31",
+    "url": "https://nerdbroski.com",
+    "results": [
+        {
+            "text": "test",
+            "count": 0
+        },
+        {
+            "text": "test1",
+            "count": 0
+        },
+        {
+            "text": "blog",
+            "count": 10
+        },
+        {
+            "text": "blogs",
+            "count": 0
+        },
+        {
+            "text": "shop",
+            "count": 2
+        },
+        {
+            "text": "lorem",
+            "count": 12
+        }
+    ]
+}
