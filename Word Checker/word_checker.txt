@@ -1,6 +1,0 @@
-Timestamp: 2024-03-11 14:51:10
-URL: https://nerdbroski.com
-The text 'blog' appears 10 times on the page.
-The text 'latest' appears 3 times on the page.
-The text 'a' appears 12 times on the page.
-The text 'just' appears 4 times on the page.
