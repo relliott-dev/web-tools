@@ -1,0 +1,46 @@
+{
+    "timestamp": "2024-03-12 14:11:40",
+    "url": "https://nerdbroski.com",
+    "results": [
+        {
+            "text": "00",
+            "count": 17
+        },
+        {
+            "text": "5",
+            "count": 15
+        },
+        {
+            "text": "sit",
+            "count": 13
+        },
+        {
+            "text": "amet",
+            "count": 13
+        },
+        {
+            "text": "a",
+            "count": 12
+        },
+        {
+            "text": "lorem",
+            "count": 12
+        },
+        {
+            "text": "ipsum",
+            "count": 12
+        },
+        {
+            "text": "dolor",
+            "count": 12
+        },
+        {
+            "text": "adipiscing",
+            "count": 12
+        },
+        {
+            "text": "elit",
+            "count": 12
+        }
+    ]
+}
