@@ -2,13 +2,11 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from urllib.robotparser import RobotFileParser
 from urllib.parse import urlparse
-import urllib.error
 import requests
-import re
-import socket
 import argparse
 import csv
 import json
+import re
 
 # Add 'https://' to the URL if it doesn't have a scheme
 # Append '.com' if the URL doesn't have a domain extension
@@ -31,7 +29,7 @@ def is_allowed(url):
         rp.set_url(robots_url)
         rp.read()
         return rp.can_fetch('*', url)
-    except (socket.gaierror, urllib.error.URLError, UnicodeError):
+    except Exception:
         return False
 
 # Count the occurrences of each text string in the specified tag (or the entire body if no tag is specified)
