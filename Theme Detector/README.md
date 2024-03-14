@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Theme Detector is a Python script that detects the theme or framework used by a website. It checks for common indicators of popular themes like WordPress or Bootstrap.
+The Theme Detector is a Python script that detects the theme or framework (such as WordPress or Bootstrap) used by a website
 
 ## Features
 
@@ -23,7 +23,7 @@ The Theme Detector is a Python script that detects the theme or framework used b
 1. Clone the repository or download the source code
 2. Install the required dependencies:
 
-`pip install requests beautifulsoup4`
+    `pip install requests beautifulsoup4`
 
 ## Usage
 
@@ -53,7 +53,7 @@ Enter URL(s) to check (separated by commas): https://example.com
 
 The results will be saved to a file named `theme_detector.txt` by default. If the `--csv` flag is used, the results will also be saved as `theme_detector.csv`. Similarly, if the `--json` flag is used, the results will be saved as `theme_detector.json`.
 
-Each file will contain a timestamp, the URL checked, and the theme the website uses.
+Each file will contain a timestamp, the URL checked, and the theme for each website.
 
 ## Future Plans
 
