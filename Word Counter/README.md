@@ -2,7 +2,7 @@
 
 ## Overview
 
-Word Counter is a Python script that takes a URL and a list of words as input and counts the occurrences of each word on the specified web page. The script also checks the website's `robots.txt` file to ensure that the page is allowed to be scraped.
+Word Counter is a Python script that takes a URL and a list of words as input and counts the occurrences of each word on the specified web page
 
 ## Features
 
@@ -23,7 +23,7 @@ Word Counter is a Python script that takes a URL and a list of words as input an
 1. Clone the repository or download the source code
 2. Install the required dependencies:
 
-`pip install requests beautifulsoup4`
+    `pip install requests beautifulsoup4`
 
 ## Usage
 
@@ -42,17 +42,12 @@ If the URL and words are not provided as arguments, the script will prompt for i
 
 ```
 python word_counter.py example "word1 word2 word3"
-
 Export results as CSV? (y/n): y
-
 Export results as JSON? (y/n): n
 ```
-
 ```
 python word_counter.py --csv --json
-
 Enter a URL to check: https://example.com
-
 Enter comma-separated words to search for: word1, word2, word3
 ```
 
