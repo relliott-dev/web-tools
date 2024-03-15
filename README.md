@@ -16,47 +16,57 @@ This repository contains a collection of web analysis tools designed for various
 - Identifies images with broken links on a webpage
 - Provides options to save results in CSV and JSON formats
 
-### 3. Image Extractor
+### 3. HTML Validator
+
+- Validates the HTML content of a webpage for common errors
+- Outputs the results in text, CSV, or JSON format
+
+### 4. Image Extractor
 
 - Downloads all images from a given webpage
 - Saves images in a specified directory
 
-### 4. Metadata Extractor
+### 5. Metadata Extractor
 
 - Extracts metadata such as title, description, and keywords from the HTML head section of a webpage
 - Supports exporting results to CSV and JSON
 
-### 5. Most Common Words
+### 6. Most Common Words
 
 - Analyzes a web page and identifies the most frequently occurring words
 - Provides options to export the results in CSV and JSON formats
 
-### 6. Page Finder
+### 7. Page Finder
 
 - Identifies all internal links (pages) within a website
 - Offers options to export results in CSV and JSON formats
 
-### 7. Social Link Extractor
+### 8. Page Screenshot
+
+- Captures a screenshot of a given webpage and saves it as an image file
+- Can handle multiple URLs and save screenshots in a specified directory
+
+### 9. Social Link Extractor
 
 - Extracts social links from a webpage
 - Supports exporting extracted links to CSV and JSON formats
 
-### 8. Speed Tester
+### 10. Speed Tester
 
 - Measures the loading speed of a webpage
 - Can output results in text, CSV, or JSON format
 
-### 9. Stripped Content
+### 11. Stripped Content
 
 - Extracts the main content of a webpage, removing all HTML tags
 - Supports exporting the stripped content to a text file
 
-### 10. Theme Detector
+### 12. Theme Detector
 
 - Detects the theme or framework used by a website, such as WordPress or Bootstrap
 - Allows exporting results as CSV or JSON
 
-### 11. Word Counter
+### 13. Word Counter
 
 - Counts the occurrences of specified words on a web page
 - Can output results in text, CSV, or JSON format
