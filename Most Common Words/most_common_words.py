@@ -1,3 +1,10 @@
+"""
+Author: Russell Elliott
+Date: 2024-03-20
+This script analyzes a web page to identify the most frequently occurring words
+For full documentation, see the README in this tool's directory
+"""
+
 from bs4 import BeautifulSoup
 from collections import Counter
 from datetime import datetime
