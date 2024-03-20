@@ -1,3 +1,10 @@
+"""
+Author: Russell Elliott
+Date: 2024-03-20
+This script captures and saves a screenshot of the specified webpage(s)
+For full documentation, see the README in this tool's directory
+"""
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from urllib.parse import urlparse
