@@ -1,3 +1,10 @@
+"""
+Author: Russell Elliott
+Date: 2024-03-20
+This script extracts the main text content from a given webpage, removing all HTML tags and preserving the structure
+For full documentation, see the README in this tool's directory
+"""
+
 from bs4 import BeautifulSoup
 from datetime import datetime
 from urllib.robotparser import RobotFileParser
