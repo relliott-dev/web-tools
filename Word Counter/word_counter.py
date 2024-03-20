@@ -1,3 +1,10 @@
+"""
+Author: Russell Elliott
+Date: 2024-03-20
+This script counts the occurrences of specified words on a web page
+For full documentation, see the README in this tool's directory
+"""
+
 from bs4 import BeautifulSoup
 from datetime import datetime
 from urllib.robotparser import RobotFileParser
