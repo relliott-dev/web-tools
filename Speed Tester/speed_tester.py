@@ -1,3 +1,10 @@
+"""
+Author: Russell Elliott
+Date: 2024-03-20
+This script measures and reports the loading speed of a specified webpage using Selenium
+For full documentation, see the README in this tool's directory
+"""
+
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
