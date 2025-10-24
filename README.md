@@ -7,69 +7,56 @@ This repository contains a collection of web analysis tools designed for various
 ## Features
 
 ### Broken Links Finder
-
-- Checks a webpage for broken links and reports any links that lead to non-existent or inaccessible pages
-- Supports multiple URLs and exports results in CSV and JSON formats
+- Check webpages for broken or inaccessible links
+- Handle multiple URLs and export results to CSV/JSON
 
 ### Broken Image Finder
-
-- Identifies images with broken links on a webpage
-- Provides options to save results in CSV and JSON formats
+- Identify images with broken or invalid sources
+- Export findings to CSV/JSON
 
 ### HTML Validator
-
-- Validates the HTML content of a webpage for common errors
-- Outputs the results in text, CSV, or JSON format
+- Validate HTML content for common errors
+- Output validation results as text, CSV, or JSON
 
 ### Image Extractor
-
-- Downloads all images from a given webpage
-- Saves images in a specified directory
+- Download all images from a given webpage
+- Save files to a chosen directory
 
 ### Metadata Extractor
-
-- Extracts metadata such as title, description, and keywords from the HTML head section of a webpage
-- Supports exporting results to CSV and JSON
+- Extract title, description, and keywords from the HTML `<head>`
+- Export metadata to CSV/JSON
 
 ### Most Common Words
-
-- Analyzes a web page and identifies the most frequently occurring words
-- Provides options to export the results in CSV and JSON formats
+- Analyze a webpage for frequency of words
+- Export frequency tables to CSV/JSON
 
 ### Page Finder
-
-- Identifies all internal links (pages) within a website
-- Offers options to export results in CSV and JSON formats
+- Find internal links across a site
+- Export discovered URLs to CSV/JSON
 
 ### Page Screenshot
-
-- Captures a screenshot of a given webpage and saves it as an image file
-- Can handle multiple URLs and save screenshots in a specified directory
+- Capture screenshots of webpages (single or multiple)
+- Save images to a specified directory
 
 ### Social Link Extractor
-
-- Extracts social links from a webpage
-- Supports exporting extracted links to CSV and JSON formats
+- Extract social profile links from webpages
+- Export links to CSV/JSON
 
 ### Speed Tester
-
-- Measures the loading speed of a webpage
-- Can output results in text, CSV, or JSON format
+- Measure page load performance
+- Output metrics as text, CSV, or JSON
 
 ### Stripped Content
-
-- Extracts the main content of a webpage, removing all HTML tags
-- Supports exporting the stripped content to a text file
+- Strip HTML to extract main text content
+- Save extracted text to file
 
 ### Theme Detector
-
-- Detects the theme or framework used by a website, such as WordPress or Bootstrap
-- Allows exporting results as CSV or JSON
+- Detect frameworks/themes (e.g., WordPress, Bootstrap)
+- Export detection results to CSV/JSON
 
 ### Word Counter
-
-- Counts the occurrences of specified words on a web page
-- Can output results in text, CSV, or JSON format
+- Count specified words on a page
+- Output counts as text, CSV, or JSON
 
 ## Planned Features
 
