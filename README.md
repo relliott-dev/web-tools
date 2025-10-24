@@ -107,8 +107,6 @@ For example, to use the Word Counter tool:
 
 Replace [URL] with the URL of the web page you want to analyze, and [WORDS] with the words you want to count, separated by spaces. Use the --csv or --json flags to export the results in the respective format.
 
-Refer to the README file within each tool's directory for more detailed usage instructions.
-
 ## Contributing
 
 Contributions to this repository are welcome! If you have an idea for a new tool or an improvement to an existing tool, feel free to create a pull request or open an issue.
