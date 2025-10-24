@@ -71,7 +71,7 @@ This repository contains a collection of web analysis tools designed for various
 - Counts the occurrences of specified words on a web page
 - Can output results in text, CSV, or JSON format
 
-### Planned Features
+## Planned Features
 
 - Unified interface with tabs for each analysis tool
 - Batch processing for multiple URLs at once
