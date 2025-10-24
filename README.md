@@ -4,91 +4,104 @@
 
 This repository contains a collection of web analysis tools designed for various purposes, including word counting, page content extraction, metadata extraction, and more. These tools are built using Python and other technologies, and they are designed to help web developers, SEO specialists, and content creators analyze and optimize their web pages.
 
-## Tools Included
+## Features
 
-### 1. Broken Links Finder
+### Broken Links Finder
 
 - Checks a webpage for broken links and reports any links that lead to non-existent or inaccessible pages
 - Supports multiple URLs and exports results in CSV and JSON formats
 
-### 2. Broken Image Finder
+### Broken Image Finder
 
 - Identifies images with broken links on a webpage
 - Provides options to save results in CSV and JSON formats
 
-### 3. HTML Validator
+### HTML Validator
 
 - Validates the HTML content of a webpage for common errors
 - Outputs the results in text, CSV, or JSON format
 
-### 4. Image Extractor
+### Image Extractor
 
 - Downloads all images from a given webpage
 - Saves images in a specified directory
 
-### 5. Metadata Extractor
+### Metadata Extractor
 
 - Extracts metadata such as title, description, and keywords from the HTML head section of a webpage
 - Supports exporting results to CSV and JSON
 
-### 6. Most Common Words
+### Most Common Words
 
 - Analyzes a web page and identifies the most frequently occurring words
 - Provides options to export the results in CSV and JSON formats
 
-### 7. Page Finder
+### Page Finder
 
 - Identifies all internal links (pages) within a website
 - Offers options to export results in CSV and JSON formats
 
-### 8. Page Screenshot
+### Page Screenshot
 
 - Captures a screenshot of a given webpage and saves it as an image file
 - Can handle multiple URLs and save screenshots in a specified directory
 
-### 9. Social Link Extractor
+### Social Link Extractor
 
 - Extracts social links from a webpage
 - Supports exporting extracted links to CSV and JSON formats
 
-### 10. Speed Tester
+### Speed Tester
 
 - Measures the loading speed of a webpage
 - Can output results in text, CSV, or JSON format
 
-### 11. Stripped Content
+### Stripped Content
 
 - Extracts the main content of a webpage, removing all HTML tags
 - Supports exporting the stripped content to a text file
 
-### 12. Theme Detector
+### Theme Detector
 
 - Detects the theme or framework used by a website, such as WordPress or Bootstrap
 - Allows exporting results as CSV or JSON
 
-### 13. Word Counter
+### Word Counter
 
 - Counts the occurrences of specified words on a web page
 - Can output results in text, CSV, or JSON format
 
+### Planned Features
+
+- Unified interface with tabs for each analysis tool
+- Batch processing for multiple URLs at once
+- Real-time progress indicators and export status
+- Charts and data visualization panels for results
+- Centralized export manager for CSV, JSON, and screenshots
+- Configurable settings for user preferences
+
+## Requirements
+
+- Python 3.10 or higher
+- Required packages listed in `requirements.txt`
+
 ## Installation
 
-To use these tools, you'll need to have Python 3.x installed on your machine. You can download Python from the [official website](https://www.python.org/downloads/).
+1. Clone or download the repository.
 
-Once Python is installed, clone this repository to your local machine:
+2. Ensure that Python is installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 
-`git clone https://github.com/relliott-dev/web-tools.git`
-
-Navigate to the cloned repository and install the required dependencies:
+3. Install the required dependencies:
 
 ```
-cd web-tools
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-Each tool can be run as a standalone Python script. For example, to use the Word Counter tool, navigate to the word_counter directory and run:
+Each tool can be run **as a standalone Python script** or **invoked directly from the command line**.
+
+For example, to use the Word Counter tool:
 
 `python word_counter.py [URL] [WORDS] [--csv] [--json]`
 
